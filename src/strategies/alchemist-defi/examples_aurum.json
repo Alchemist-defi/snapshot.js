@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Checking masterchef for balances",
+        "strategy": {
+            "name": "alchemist-defi",
+            "params": {
+                "tokenAddress": "0x49207BAA3a7332F0716788aa57B088D499bcc104",
+                "tokenBurnAddress" : "0x000000000000000000000000000000000000dEaD",                
+                "tokenPendingFunction" : "pendingAurum",
+                "getWalletBalance" : true,
+                "masterChefAddress": "0x193765551a49eAD3aA8C693F19C4501710cD874d",                
+                "lpPairAddresses": [
+                    {                        
+                        "pcsPairAddress": "0xa3c4006d1957A09CF9b94Af683877aBA03DF1eC9",
+                        "pid" :0, 
+                        "weight" : 1
+                    },                    
+                    {                        
+                        "pcsPairAddress": "0xa71F0BB3C029d397B10685f884A3523DA766827d",
+                        "pid" : 11, 
+                        "weight" : 1
+                    },
+                    {                        
+                        "pcsTokenAddress": "0x49207BAA3a7332F0716788aa57B088D499bcc104",
+                        "pid" : 7, 
+                        "weight" : 1
+                    }
+                ]
+            }
+        },
+        "network": "56",
+        "addresses": [
+            "0x6930729e74ccaE3326DF9803bcCbc0E62AfFa5Ed"
+        ],
+        "snapshot": "latest"
+    }
+]

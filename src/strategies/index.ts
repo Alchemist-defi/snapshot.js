@@ -77,6 +77,7 @@ import { strategy as avnBalanceOfStaked } from './avn-balance-of-staked';
 import { strategy as api } from './api';
 import { strategy as xseen } from './xseen';
 import { strategy as erc721Enumerable } from './erc721-enumerable';
+import { strategy as alchemistDefi} from './alchemist-defi';
 
 export default {
   balancer,
@@ -157,5 +158,6 @@ export default {
   'masterchef-pool-balance': masterchefPoolBalance,
   'avn-balance-of-staked': avnBalanceOfStaked,
   api,
-  xseen
+  xseen, 
+  'alchemist-defi' : alchemistDefi
 };
